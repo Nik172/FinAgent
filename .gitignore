@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables — never commit API keys
+.env
+
+# Data folder — PDFs can be large and are not source code
+data/
+
+# Hugging Face model cache — downloaded at runtime, not committed
+~/.cache/huggingface/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

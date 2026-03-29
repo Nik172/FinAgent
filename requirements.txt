@@ -1,0 +1,19 @@
+# ── Agent Alpha (Fundamental Analysis) ────────────────────────────────────────
+pdfplumber          # PDF text and table extraction
+groq                # Groq API client for Llama-3
+
+# ── Agent Beta (Technical Analysis) ───────────────────────────────────────────
+# yfinance          # Historical price data from Yahoo Finance
+# pandas            # Price series math and indicator calculations
+
+# ── Agent Gamma (Sentiment Analysis) ──────────────────────────────────────────
+feedparser           # Google News RSS parsing — no API key needed
+transformers         # Hugging Face tokenizer and model loader
+optimum[onnxruntime] # ONNX Runtime backend for FinBERT — replaces torch (~250MB vs ~2GB)
+
+# ── Orchestrator ───────────────────────────────────────────────────────────────
+fastapi             # Backend API server
+uvicorn             # ASGI server to run FastAPI
+
+# ── Frontend ───────────────────────────────────────────────────────────────────
+# streamlit         # UI (your teammate's responsibility)
